@@ -475,6 +475,7 @@ body{
 }
 .about-first-line{
     font-size: 35px;
+    font-family: raleway;
     opacity: 1;
     margin-bottom: 10px;
     display: block;
@@ -1460,6 +1461,7 @@ For devices with smaller width like mobile phone
     }
     .about-first-line{
         font-size: 28px;
+        font-family: raleway;
         opacity: 1;
         margin-bottom: 10px;
         display: block;
@@ -1914,6 +1916,7 @@ for tabs and large phones
     }
     .about-first-line{
         font-size: 32px;
+        font-family: raleway;
         opacity: 1;
         margin-bottom: 10px;
         display: block;
@@ -2298,6 +2301,7 @@ for tabs and large phones
     }
     .about-first-line{
         font-size: 45px;
+        font-family: raleway;
         opacity: 1;
         margin-bottom: 10px;
         display: block;
