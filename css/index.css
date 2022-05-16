@@ -510,7 +510,7 @@ body{
 
 #about-content a{
     text-decoration: none;
-    font-family: aileron;
+    font-family: raleway;
     font-weight: 400;
     font-size: 35px;
     color: #9400ff;
@@ -527,7 +527,7 @@ body{
     background: #9400ff;
     outline: none;
     font-size:20px;
-    font-family: aileron;
+    font-family: raleway;
     border-radius: 4px;
     font-weight: 400;
     cursor: pointer;
@@ -1951,7 +1951,7 @@ for tabs and large phones
         color: whitesmoke;
         outline: none;
         font-size:20px;
-        font-family: aileron;
+        font-family: raleway;
         border-radius: 8px;
         font-weight: 400;
         cursor: pointer;
@@ -2317,7 +2317,7 @@ for tabs and large phones
         color: whitesmoke;
         outline: none;
         font-size:30px;
-        font-family: aileron;
+        font-family: raleway;
         border-radius: 4px;
         font-weight: 400;
         cursor: pointer;
