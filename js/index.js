@@ -1,10 +1,10 @@
 $(window).on('load',function(){
-  gsap.to('#loader',1,{y:"-100%"});
-  gsap.to('#loader',1,{opacity:0});
-  gsap.to('#loader',0,{display:"none",delay:1});
-  gsap.to('#header',0,{display:"block",delay:1})
-  gsap.to('#navigation-content',0,{display:"none"});
-  gsap.to('#navigation-content',0,{display:"flex",delay:1});
+  gsap.to('#loader',1,{y:"-50%",delay:1});
+  gsap.to('#loader',1,{opacity:0,delay:1});
+  gsap.to('#loader',0,{display:"none",delay:2});
+  gsap.to('#header',0,{display:"block",delay:2})
+  gsap.to('#navigation-content',0,{display:"none",delay:1});
+  gsap.to('#navigation-content',0,{display:"flex",delay:2});
 })
 $(function(){
   $('.color-panel').on("click",function(e) {
@@ -158,6 +158,29 @@ gsap.to('#breaker-two',0,{display:"none",delay:2});
 gsap.to('#header',0,{display:"block",delay:.7});
 gsap.to('#navigation-content',0,{display:'flex',delay:2});
 })
+
+// Answer #4
+// -----------------------------------------------------------------------
+const input = document.getElementById('UploadedImage');
+
+input.addEventListener('click', async () => {
+  const file = input.files[0];
+  const formData = new FormData();
+  formData.append('uploaded_image', file);
+
+  const response = await fetch('/process_image', {
+    method: 'POST',
+    body: formData
+  });
+
+  if (response.ok) {
+    const result = await response.json();
+    // Do something with the result
+  } else {
+    console.error('Error processing image');
+  }
+});
+// -----------------------------------------------------------------------
 
 })
 $(function(){
