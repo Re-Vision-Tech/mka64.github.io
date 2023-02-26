@@ -399,6 +399,7 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    font-family: 'Raleway', sans-serif;
     z-index: 3;
 }
 .contact a{
@@ -471,6 +472,7 @@ body{
     justify-content: center;
     height: auto;
     width: 100%;
+    height: 100vh;
     padding:30px;
     
 }
@@ -1155,10 +1157,10 @@ input[type=file]::file-selector-button:hover::before{
     font-size: 45px;
     font-family: 'Raleway', sans-serif;
     color: whitesmoke;
-    padding:10px;
+    padding: 10px;
     padding-bottom: 30px;
     padding-top: 60px;
-    font-weight: 900;
+    font-weight: 300;
 }
 .contact-header-caption{
     padding: 10px;
@@ -1179,9 +1181,9 @@ input[type=file]::file-selector-button:hover::before{
 .contact-info{
     width: 40%;
     height: 500px;
-    background: url(../images/contact-back.jpg);
-    background-position: center;
-    background-size: cover;
+    /* background: url(../images/contact-back.jpg); */
+    /* background-position: center; */
+    /* background-size: cover; */
     border-radius: 16px;
     margin-bottom: 50px;
     position: relative;
@@ -1230,12 +1232,13 @@ form{
     background: #050505;
     border:none;
     color: whitesmoke;
-    font-family: poppins;
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
+    /* font-weight: lighter; */
 }
 .form-header{
     font-size: 24px;
-    font-family: poppins;
+    font-family: 'Raleway', sans-serif;
     font-weight: 400;
     color: whitesmoke;
     padding: 28px;
@@ -1249,8 +1252,9 @@ form{
     background: #050505;
     border:none;
     color: whitesmoke;
-    font-family: poppins;
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
+    /* font-weight: lighter; */
 }
 .input-textarea{
     width: 84%;
@@ -1262,15 +1266,16 @@ form{
     background: #050505;
     border:none;
     color: whitesmoke;
-    font-family: poppins;
+    font-family: 'Raleway', sans-serif;
     font-size: 18px;
+    font-weight: lighter;
 }
 form button{
     padding:8px 24px;
-    font-family: poppins;
+    font-family: 'Raleway', sans-serif;
     font-size:20px;
     color: whitesmoke;
-    background:#BB0035;
+    background:#9400ff;
     opacity: .8;
     margin: 20px;
     cursor: pointer;
@@ -1285,7 +1290,7 @@ form button:hover{
     position: relative;
     z-index: 2;
     font-size: 24px;
-    font-family: poppins;
+    font-family: 'Raleway', sans-serif;
     font-weight: 400;
     color: whitesmoke;
     padding: 30px;
@@ -1304,7 +1309,7 @@ form button:hover{
 .contact-info-icon-text{
     color: whitesmoke;
     padding:15px;
-    font-family: poppins;
+    font-family: 'Raleway', sans-serif;
 }
 .contact-info-icon-text h6{
     font-size: 15px;
@@ -1326,7 +1331,7 @@ form button:hover{
     color: whitesmoke;
     display: flex;
     flex-direction: row;
-    font-family: poppins;
+    font-family: 'Raleway', sans-serif;
     align-items: center;
     justify-content: center;
 }
@@ -1536,6 +1541,7 @@ For devices with smaller width like mobile phone
         justify-content: center;
         height: auto;
         width: 100%;
+        height: 100%;
         padding:30px;
     }
     .about-header{
@@ -1766,8 +1772,8 @@ For devices with smaller width like mobile phone
             .contact-info{
                 width: 90%;
                 height: 500px;
-                background-position: center;
-                background-size: cover;
+                /* background-position: center; */
+                /* background-size: cover; */
                 border-radius: 16px;
                 margin-bottom: 25px;
                 position: relative;
@@ -1817,12 +1823,12 @@ For devices with smaller width like mobile phone
                 background: #050505;
                 border:none;
                 color: whitesmoke;
-                font-family: poppins;
+                font-family: 'Raleway', sans-serif;
                 font-size: 16px;
             }
             .form-header{
                 font-size: 22px;
-                font-family: poppins;
+                font-family: 'Raleway', sans-serif;
                 font-weight: 400;
                 color: whitesmoke;
                 padding: 20px;
@@ -1837,7 +1843,7 @@ For devices with smaller width like mobile phone
                 background: #050505;
                 border:none;
                 color: whitesmoke;
-                font-family: poppins;
+                font-family: 'Raleway', sans-serif;
                 font-size: 16px;
             }
             .input-textarea{
@@ -1850,12 +1856,12 @@ For devices with smaller width like mobile phone
                 background: #050505;
                 border:none;
                 color: whitesmoke;
-                font-family: poppins;
+                font-family: 'Raleway', sans-serif;
                 font-size: 16px;
             }
             form button{
                 padding:8px 24px;
-                font-family: poppins;
+                font-family: 'Raleway', sans-serif;
                 font-size:20px;
                 color: whitesmoke;
                 opacity: .8;
@@ -1872,7 +1878,7 @@ For devices with smaller width like mobile phone
                 position: relative;
                 z-index: 2;
                 font-size: 24px;
-                font-family: poppins;
+                font-family: 'Raleway', sans-serif;
                 font-weight: 400;
                 color: whitesmoke;
                 padding: 20px;
@@ -2239,8 +2245,8 @@ for tabs and large phones
             .contact-info{
                 width: 70%;
                 height: 500px;
-                background-position: center;
-                background-size: cover;
+                /* background-position: center; */
+                /* background-size: cover; */
                 border-radius: 16px;
                 margin-bottom: 50px;
                 position: relative;
@@ -2290,12 +2296,12 @@ for tabs and large phones
                 background: #050505;
                 border:none;
                 color: whitesmoke;
-                font-family: poppins;
+                font-family: 'Raleway', sans-serif;
                 font-size: 16px;
             }
             .form-header{
                 font-size: 22px;
-                font-family: poppins;
+                font-family: 'Raleway', sans-serif;
                 font-weight: 400;
                 color: whitesmoke;
                 padding: 20px;
@@ -2310,7 +2316,7 @@ for tabs and large phones
                 background: #050505;
                 border:none;
                 color: whitesmoke;
-                font-family: poppins;
+                font-family: 'Raleway', sans-serif;
                 font-size: 16px;
             }
             .input-textarea{
@@ -2323,12 +2329,12 @@ for tabs and large phones
                 background: #050505;
                 border:none;
                 color: whitesmoke;
-                font-family: poppins;
+                font-family: 'Raleway', sans-serif;
                 font-size: 16px;
             }
             form button{
                 padding:8px 24px;
-                font-family: poppins;
+                font-family: 'Raleway', sans-serif;
                 font-size:20px;
                 color: whitesmoke;
                 opacity: .8;
@@ -2345,7 +2351,7 @@ for tabs and large phones
                 position: relative;
                 z-index: 2;
                 font-size: 24px;
-                font-family: poppins;
+                font-family: 'Raleway', sans-serif;
                 font-weight: 400;
                 color: whitesmoke;
                 padding: 20px;
@@ -2547,7 +2553,7 @@ for tabs and large phones
         padding:10px;
         padding-bottom: 30px;
         padding-top: 60px;
-        font-weight: 900;
+        font-weight: 300;
     }
     .contact-header-caption{
         padding: 10px;
@@ -2568,8 +2574,8 @@ for tabs and large phones
     .contact-info{
         width: 40%;
         height: 600px;
-        background-position: center;
-        background-size: cover;
+        /* background-position: center; */
+        /* background-size: cover; */
         border-radius: 16px;
         margin-bottom: 50px;
         position: relative;
@@ -2617,12 +2623,12 @@ for tabs and large phones
         background: #050505;
         border:none;
         color: whitesmoke;
-        font-family: poppins;
+        font-family: 'Raleway', sans-serif;
         font-size: 18px;
     }
     .form-header{
         font-size: 24px;
-        font-family: poppins;
+        font-family: 'Raleway', sans-serif;
         font-weight: 400;
         color: whitesmoke;
         padding: 20px;
@@ -2637,7 +2643,7 @@ for tabs and large phones
         background: #050505;
         border:none;
         color: whitesmoke;
-        font-family: poppins;
+        font-family: 'Raleway', sans-serif;
         font-size: 18px;
     }
     .input-textarea{
@@ -2650,12 +2656,12 @@ for tabs and large phones
         background: #050505;
         border:none;
         color: whitesmoke;
-        font-family: poppins;
+        font-family: 'Raleway', sans-serif;
         font-size: 18px;
     }
     form button{
         padding:8px 24px;
-        font-family: poppins;
+        font-family: 'Raleway', sans-serif;
         font-size:20px;
         color: whitesmoke;
         opacity: .8;
